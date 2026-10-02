@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+void main()=>runApp(MaterialApp(home:Scaffold(appBar:AppBar(title:Text('ListTile')),body:ListView(children:[ListTile(leading:Icon(Icons.person),title:Text('Tejasvi'),subtitle:Text('BCA Student')),ListTile(leading:Icon(Icons.book),title:Text('Flutter'),subtitle:Text('Mobile Development')),ListTile(leading:Icon(Icons.school),title:Text('COER'),subtitle:Text('University'))]))));
